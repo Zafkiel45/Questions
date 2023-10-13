@@ -6,5 +6,7 @@ const Button = document.querySelectorAll('.button');
 Button.forEach((button, index) => {
     button.addEventListener('click', () => {
             ContainerHidden[index].classList.toggle('visibleee')
+            ContainerMain[index].classList.toggle('mainContainer')
+            Button[index].classList.toggle('translate')
     })
 })

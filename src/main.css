@@ -10,3 +10,9 @@
 .mainContainer {
     gap: 10px;
 }
+.containerResposta {
+    padding: 1rem;
+}
+.translate {
+    transform: rotate(180deg);
+}
