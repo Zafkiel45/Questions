@@ -10,7 +10,9 @@
 }
 .difícil {
     @apply bg-red-400 p-1 text-center text-sm font-medium mb-2 rounded-md w-[15%]
-
+}
+.mutioDifícil {
+    @apply bg-red-500 text-white p-1 text-center text-sm font-medium mb-2 rounded-md w-[15%]
 }
 
 .visibleee {
